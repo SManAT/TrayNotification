@@ -1,7 +1,7 @@
-package com.github.plushaze.traynotification.animations;
+package traynotification.animations;
 
 import javafx.animation.*;
-import com.github.plushaze.traynotification.models.CustomStage;
+import traynotification.models.CustomStage;
 import javafx.util.Duration;
 
 final class PopupAnimation extends AbstractAnimation {

@@ -1,8 +1,8 @@
-package com.github.plushaze.traynotification.animations;
+package traynotification.animations;
 
 import javafx.animation.*;
 import javafx.util.Duration;
-import com.github.plushaze.traynotification.models.CustomStage;
+import traynotification.models.CustomStage;
 
 final class SlideAnimation extends AbstractAnimation {
 

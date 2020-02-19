@@ -1,6 +1,6 @@
-package com.github.plushaze.traynotification.animations;
+package traynotification.animations;
 
-import com.github.plushaze.traynotification.models.CustomStage;
+import traynotification.models.CustomStage;
 import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
 import javafx.animation.Timeline;

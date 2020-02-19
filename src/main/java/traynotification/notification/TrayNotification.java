@@ -1,6 +1,7 @@
-package com.github.plushaze.traynotification.notification;
+package traynotification.notification;
 
-import com.github.plushaze.traynotification.animations.*;
+import traynotification.animations.Animations;
+import traynotification.animations.Animation;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -15,7 +16,7 @@ import javafx.scene.paint.Paint;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
-import com.github.plushaze.traynotification.models.CustomStage;
+import traynotification.models.CustomStage;
 
 import java.io.IOException;
 import java.net.URL;
@@ -74,7 +75,7 @@ public final class TrayNotification {
    * Initializes the tray notification with the default type.
    */
   public TrayNotification() {
-    this(Notifications.NOTICE);
+    this(Notification.NOTICE);
   }
 
   private void initTrayNotification(String title, String message, Notification type) {

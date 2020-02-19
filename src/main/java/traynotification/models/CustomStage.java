@@ -1,4 +1,4 @@
-package com.github.plushaze.traynotification.models;
+package traynotification.models;
 
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.geometry.Rectangle2D;
