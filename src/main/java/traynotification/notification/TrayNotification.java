@@ -24,7 +24,9 @@ import java.net.URL;
 public final class TrayNotification {
 
   @FXML
-  private Label lblTitle, lblMessage, lblClose;
+  private Label lblTitle, lblMessage;
+  @FXML
+  private ImageView lblClose;
   @FXML
   private ImageView imageIcon;
   @FXML
@@ -115,6 +117,7 @@ public final class TrayNotification {
     setRectangleFill(Paint.valueOf(nType.getPaintHex()));
     setImage(new Image(imageLocation.toString()));
     setTrayIcon(imageIcon.getImage());
+    rectangleColor.setStyle("-fx-fill: "+nType.getPaintHex()+"; -fx-stroke: "+nType.getPaintHex()+";");
   }
 
   public Notification getNotification() {
