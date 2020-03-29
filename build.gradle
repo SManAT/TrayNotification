@@ -1,6 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'jacoco'
-apply plugin: 'maven'
+apply plugin: 'maven-publish'
 
 group = 'SH'
 
@@ -31,5 +31,5 @@ javafx {
 }
 /* -------------------------------------------------------------------------- */
 dependencies {
-  testCompile 'junit:junit:4.12'
+  testImplementation 'junit:junit:4.12'
 }
