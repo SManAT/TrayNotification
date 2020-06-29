@@ -46,6 +46,7 @@ public final class TrayNotification {
    * @param body The body text to assign to the tray
    * @param img The image to show on the tray
    * @param rectangleFill The fill for the rectangle
+   * @param notification
    */
   public TrayNotification(String title, String body, Image img,
           Paint rectangleFill, Notification notification) {
@@ -68,6 +69,7 @@ public final class TrayNotification {
 
   /**
    * Initializes an empty instance of the tray notification
+   * @param notification
    */
   public TrayNotification(Notification notification) {
     this("", "", notification);
